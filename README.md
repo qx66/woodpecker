@@ -3,11 +3,6 @@
 Woodpecker (啄木鸟) 是一个系统信息获取工具
 
 
-CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build
-CGO_ENABLED=0 GOOS=darwin GOARCH=amd64 go build
-CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build
-
-
 提供一键获取系统信息
 
 以及获取单个指标项信息，针对单指标项目持续输出
